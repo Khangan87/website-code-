@@ -1,0 +1,26 @@
+// pages/index.tsx
+import Head from 'next/head';
+
+export default function Home() {
+  return (
+    <>
+      <Head>
+        <title>Startup IT Services</title>
+        <meta name="description" content="Fast, reliable IT support for modern startups." />
+      </Head>
+      <main className="min-h-screen bg-white text-gray-900">
+        <section className="text-center py-20 px-4">
+          <h1 className="text-4xl font-bold mb-4">Your Startup’s IT Partner</h1>
+          <p className="text-lg mb-8">Managed IT, cloud setup & support tailored for fast-growing teams.</p>
+          <a
+            href="/contact"
+            className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700"
+          >
+            Get a Free Quote
+          </a>
+        </section>
+      </main>
+    </>
+  );
+}
+  
